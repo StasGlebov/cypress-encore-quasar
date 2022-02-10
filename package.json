@@ -1,0 +1,35 @@
+{
+  "name": "cypress-encore-quasar",
+  "version": "1.0.0",
+  "description": "Setup for Cypress unit testing with Webpack Encore + Quasar",
+  "main": "index.js",
+  "keywords": ["cypress", "quasar", "symfony", "webpack", "encore"],
+  "scripts": {
+    "test:unit": "cypress open-ct --project tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StasGlebov/cypress-encore-quasar.git"
+  },
+  "author": "stasglebov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StasGlebov/cypress-encore-quasar/issues"
+  },
+  "homepage": "https://github.com/StasGlebov/cypress-encore-quasar#readme",
+  "dependencies": {
+    "@symfony/webpack-encore": "^1.8.1",
+    "quasar": "^1.18.5",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.4.0",
+    "vue": "^3.2.30"
+  },
+  "devDependencies": {
+    "@cypress/vue": "^2.2.3",
+    "@cypress/webpack-dev-server": "^1.8.1",
+    "cypress": "^9.4.1",
+    "cypress-multi-reporters": "^1.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "path": "^0.12.7"
+  }
+}
