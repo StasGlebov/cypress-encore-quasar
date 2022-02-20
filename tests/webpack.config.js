@@ -1,3 +1,4 @@
+const path = require('path')
 const _Encore = require('@symfony/webpack-encore');
 _Encore.configureRuntimeEnvironment('dev-server');
 
@@ -19,6 +20,10 @@ config.devServer = {
 // remove AssetsPlugin
 const plugins = config.plugins;
 plugins.splice(-1, 1);
+
+config.resolve.alias = {
+    '@': path.join(__dirname, '../path-to-components')
+}
 
 module.exports = {
     ...config,

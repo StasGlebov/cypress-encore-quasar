@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "Setup for Cypress unit testing with Webpack Encore + Quasar",
   "main": "index.js",
-  "keywords": ["cypress", "quasar", "symfony", "webpack", "encore"],
+  "keywords": [
+    "cypress",
+    "quasar",
+    "symfony",
+    "webpack",
+    "encore"
+  ],
   "scripts": {
     "test:unit": "cypress open-ct --project tests"
   },
